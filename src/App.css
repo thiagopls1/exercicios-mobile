@@ -1,0 +1,44 @@
+#root {
+	margin: 0;
+	text-align: center;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	place-items: center;
+}
+
+.container div {
+	margin-bottom: 10px;
+}
+
+.counter-container {
+	padding: 15px;
+	border-radius: 8px;
+}
+
+.dark-mode {
+	background-color: #242424;
+	color: #fff;
+
+	.counter-container {
+		background-color: #141414;
+	}
+}
+
+.light-mode {
+	background-color: #fff;
+	color: #000;
+
+	.counter-container {
+		background-color: #ccc;
+	}
+}
+
+.counter-container button {
+	margin: 0 5px;
+}
